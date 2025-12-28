@@ -54,23 +54,29 @@ Analyzes customer purchasing behavior, product performance, and sales trends to 
 - **Growth Analysis**: Year-over-year performance comparison
 - **Seasonality**: Identified peak sales periods
 
-### Retail-data-analysis/
-├── sql_scripts/
-│   ├── 00_database_exploration.sql
-│   ├── 01_dimensions_exploration.sql
-│   ├── 02_date_range_exploration.sql
-│   ├── 03_measures_exploration.sql
-│   ├── 04_magnitude_analysis.sql
-│   ├── 05_ranking_analysis.sql
-│   ├── 06_change_over_time.sql
-│   ├── 07_cumulative_analysis.sql
-│   ├── 08_performance_analysis.sql
-│   ├── 09_data_segmentation.sql
-│   ├── 10_part_to_whole_analysis.sql
-│   ├── 11_customer_report.sql
-│   ├── 12_product_report.sql
-├── README.md
+### 🗂️ Project Structure
 
+<pre>
+retail-data-analysis/
+│
+├── <b>sql_scripts/</b>                    # All SQL analysis files
+│   ├── 00_database_exploration.sql     # Database structure analysis
+│   ├── 01_dimensions_exploration.sql   # Dimension table profiling
+│   ├── 02_date_range_exploration.sql   # Temporal boundary analysis
+│   ├── 03_measures_exploration.sql     # Key metric calculations
+│   ├── 04_magnitude_analysis.sql       # Data distribution analysis
+│   ├── 05_ranking_analysis.sql         # Top/bottom performer ranking
+│   ├── 06_change_over_time.sql         # Trend & seasonality analysis
+│   ├── 07_cumulative_analysis.sql      # Running totals & averages
+│   ├── 08_performance_analysis.sql     # YoY/MoM comparisons
+│   ├── 09_data_segmentation.sql        # Customer/product segmentation
+│   ├── 10_part_to_whole_analysis.sql   # Contribution analysis
+│   ├── 11_customer_report.sql          # Comprehensive customer insights
+│   └── 12_product_report.sql           # Complete product performance
+│
+├── <b>README.md</b>                      # Project documentation
+└── <b>.gitignore</b>                     # Git ignore file
+</pre>
 ### Customer Segmentation
 ```sql
 -- VIP/Routine/New Customer Segmentation
