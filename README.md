@@ -75,7 +75,7 @@ retail-data-analysis/
 │   └── 12_product_report.sql           # Complete product performance
 │
 ├── <b>README.md</b>                      # Project documentation
-└── <b>.gitignore</b>                     # Git ignore file
+
 </pre>
 ### Customer Segmentation
 ```sql
@@ -199,5 +199,3 @@ This project demonstrates:
 *Open to data analyst, business intelligence, and SQL developer roles*
 
 </div>
--LinkedIn: [linkedin.com/in/mostafa-galal-2a10123a1]
--Email: mostafagalal.mansour@gmail.com
