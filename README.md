@@ -54,7 +54,7 @@ Analyzes customer purchasing behavior, product performance, and sales trends to 
 - **Growth Analysis**: Year-over-year performance comparison
 - **Seasonality**: Identified peak sales periods
 
-retail-data-analysis/
+### Retail-data-analysis/
 ├── sql_scripts/
 │   ├── 00_database_exploration.sql
 │   ├── 01_dimensions_exploration.sql
